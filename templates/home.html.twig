@@ -1,0 +1,45 @@
+{% extends "base.html.twig" %}
+
+{% block title %}To-Do List App{% endblock %}
+
+{% block body %}
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Organize Your Life</h1>
+            <p>Keep track of your tasks effortlessly.</p>
+            <a href="/get-started" class="btn-get-started">Get Started</a>
+        </section>
+        <section id="features">
+            <!-- Include some icons and brief descriptions for each feature -->
+            <div class="feature">
+                <i class="fas fa-tasks"></i>
+                <h3>Simplify Your Day</h3>
+                <p>Keep track of your tasks and stay organized.</p>
+            </div>
+            <!-- Repeat for each feature -->
+            <div class="feature">
+                <i class="fas fa-calendar-alt"></i>
+                <h3>Stay on Schedule</h3>
+                <p>Plan your day and stay on top of your tasks.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-bell"></i>
+                <h3>Set Reminders</h3>
+                <p>Never forget a task with reminders.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 To-Do List App</p>
+    </footer>
+{% endblock %}

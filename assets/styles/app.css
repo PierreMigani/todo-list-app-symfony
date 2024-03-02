@@ -1,0 +1,17 @@
+@import url("home.css");
+
+/* For headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; /* Adjust the weight as necessary */
+}
+
+/* For body text */
+body, p, li, a, input, button { /* Include other elements as needed */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+html {
+    background: #e5f1e3;
+}
